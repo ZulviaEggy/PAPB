@@ -1,0 +1,30 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Cuaca</string>
+
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="format_full_friendly_date">
+        <xliff:g id="month">%1$s</xliff:g>, <xliff:g id="day">%2$s</xliff:g>
+    </string>
+    <string name="format_temperature_celcius">
+        <xliff:g id="temp">%1.0f</xliff:g>\u00B0c
+    </string>
+    <string name="format_temperature_fahrenheit">
+        <xliff:g id="temp">%1.0f</xliff:g>\u00B0c
+    </string>
+    <string name="format_wind_kmh">
+        <xliff:g id="speed">%1$1.0f</xliff:g> km/h  <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+    <string name="format_wind_mph">
+        <xliff:g id="speed">%1$1.0f</xliff:g> mph  <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+
+    <string name="condition_2xx">Storm</string>
+    <string name="condition_3xx">Cloudy</string>
+    <string name="condition_500">Light Rain</string>
+    <string name="condition_501">Moderate Rain</string>
+    <string name="condition_502">Rainy</string>
+    <string name="condition_503">Sunny</string>
+
+    <string name="condotion_unknow">Unknow(<xliff:g id="conditionId">%1$d</xliff:g>)</string>
+</resources>
