@@ -96,7 +96,7 @@
 
         />
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -216,6 +216,6 @@
             android:textColor="#4AB8DB"
             android:textSize="20dp" />
 
-    </LinearLayout>
+    </RelativeLayout>
 
 </RelativeLayout>
